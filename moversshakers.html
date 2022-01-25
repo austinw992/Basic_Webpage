@@ -1,0 +1,73 @@
+
+<!doctype html>
+
+<!--
+Filename: Movers and shakers
+Author: Austin Wang
+Create Date: 1 November 2020
+Purpose: Understanding effects of jQuery
+Last Modified on: 1 November 2020
+Last Modified By: Austin Wang
+Modification History:
+1 November 2020: Created Document
+-->
+
+
+<html lang="en">
+    <head>
+    
+        <title>Movers and Shakers</title>
+
+        <meta charset="utf-8">
+
+        <!-- Link to some stylesheet goes first -->
+
+        <link href="../css/n341.css" rel="stylesheet" type="text/css">
+
+		<!-- Link to hosted jQuery library goes after css file but before local js file -->
+
+        <!-- Probable performance boost if at very bottom of file -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+        <!-- Link to js file specific to this html page goes below hosted library link -->
+
+        <script src="moversshakers.js"></script>
+
+    </head>
+    
+    <body>
+
+	<h1> Movers and Shakers Lab </h1>
+		
+	<form>
+	
+		<!--a fieldset is used to group related elements in a type of form -->
+		<fieldset>
+		
+			<!--The buttons represent the effects that will occur in the javascript/jQuery-->
+			<button type="button" id="SlideUP">Slide Up</button>
+			<button type="button" id="SlideDown">Slide Down</button>
+			<button type="button" id="Hide">Hide</button>
+			<button type="button" id="Show">Show</button>
+			<button type="button" id="FadingIn">Fading In</button>
+			<button type="button" id="FadingOut">Fading Out</button>
+			<button type="button" id="Toggling">Toggling</button>
+			<button type="button" id="Chaining">Chaining</button>
+
+		</fieldset>
+	</form>
+		<!-- insert image into html -->
+		<p id="shipimage">
+			<!--source of the image and an alternate name for the source-->
+			<img src="https://www.pirateshowcancun.com/blog/wp-content/uploads/2016/08/black-pearl.jpg" alt="ship">
+			</p>
+
+		<div id="ship" class="ship1"> 
+			The ship 
+			</div>
+		
+    </body>
+
+</html>

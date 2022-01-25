@@ -1,0 +1,30 @@
+<style>
+/*
+Title: IDed and Styled css file
+Author: Austin Wang (AW)
+Create Date: 30 August 2020
+Purpose: give css styles to a webpage
+Last Modified On: 30 August 2020
+Last Modified By: Austin Wang (AW)
+Modification History:
+30 August 2020 - Created CSS file for IDed and Styled Assignment
+
+*/
+
+	#Black_Pearl {
+		color: black;
+		}
+
+	#The_Jolly_Roger {
+		color: green;
+		}
+
+	#Adventure_Galley_Pirate {
+		color: brown;
+		}
+
+	#Queen_Anne_Revenge {
+		color: red;
+		}
+
+</style>

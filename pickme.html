@@ -1,0 +1,87 @@
+<!doctype html>
+
+<!--
+Title: Pick Me
+Author: Austin Wang (AW)
+Create Date: 26 October 2020
+Purpose: jQuery and other functions
+Last Modified On: 26 October 2020
+Last modified By: Austin Wang
+Modification History:
+26 Oct 2020: Created Document
+
+-->
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pick Me Lab</title>
+
+ <meta charset="utf-8">
+       
+
+ <!-- Link to some stylesheet goes first -->
+        <link href="../css/n341.css" rel="stylesheet" type="text/css">
+
+
+		<!-- Link to hosted jQuery library goes after css file but before local js file -->
+        <!-- Probable performance boost if at very bottom of file -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Link to js file specific to this html page goes below hosted library link -->
+        <script src="pickme.js"></script>
+
+
+    </head>
+    
+    <body>
+
+	
+	<ul>
+	
+		
+		<li id="person1" class="awesome"> Jack Sparrow</li>
+
+		<li id="strong" class="terrible"> Blackbeard </li>
+
+		<li id="person3" class="good"> Jolly Roger </li>
+
+		<li id="person4" class="terrible"> Balbosa </li>
+
+		<li id="pirate" class="cool"> Davey Jones </li>
+
+		<li id="person5" class="good"> Peter Pan </li>
+
+		<li id="person2" class="awesome"> Austin </li>
+
+		<li id="person6" class="cool"> Zoro </li>
+
+		<li id="person7" class="terrible"> Ned Lowe </li>
+
+		<li id="person8" class="terrible"> Henry Morgan </li>
+
+	
+	</ul>
+	
+			<div id="outputArea">
+				<p id="outputHere"></p>
+			</div>
+	
+				<button id="RedButton"> RED </button>
+
+				<button id="AwesomeButton"> PICK AWESOME </button>
+
+				<button id="PirateButton"> WHO IS PIRATE </button>
+
+				<button id="StrongButton"> WHO IS STRONG </button>
+
+				<button id="DottedBorder"> DOTTED BORDER ADDED </button>
+
+				<button id="FirstBorder"> CHOSEN ONE BORDER</button>
+
+				<button id="PinkBorder"> PINK BORDER </button>
+
+
+	</body>
+
+</html>
